@@ -1,0 +1,40 @@
+.parent {
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse;
+    justify-content: end;
+    align-items: flex-end; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center;
+    align-items: center;  */
+    flex-wrap: wrap;
+}
+.child {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+/* .second {
+    order: 1;
+}
+/* .first {
+    order: 1;
+
+} */
+/* .third {
+ order: -1;
+} */ 
